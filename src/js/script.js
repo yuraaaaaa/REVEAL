@@ -1,0 +1,1 @@
+let link = document.querySelector('.header__link');

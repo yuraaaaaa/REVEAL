@@ -1,0 +1,68 @@
+@import '../color/var.scss';
+
+.section {
+    padding-top: 160px;
+    text-align: center;
+
+    &__title {
+        font-size: 150px;
+        margin-bottom: 300px;
+    }
+}
+
+.section-head {
+    &__title {
+        font-size: 80px;
+        margin-bottom: 60px;
+    }
+
+    &__title--first {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__dist {
+        margin: 0 auto 170px;
+        max-width: 850px;
+        font-size: 22px;
+        line-height: 30px;
+    }
+}
+
+.section-head--gradient {
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    padding-top: 160px;  
+    -webkit-box-shadow: 8px -98px 35px 57px rgba(161, 69, 225, 1);
+    -moz-box-shadow: 8px -98px 35px 57px rgba(161, 69, 225, 1);
+    box-shadow: 8px -98px 35px 57px rgba(161, 69, 225, 1);    
+}
+
+.math {
+    color: $blueviolet;
+}
+
+.holder-metric {
+    display: flex;
+    justify-content: space-around;
+}
+
+.metric {
+    &__title {
+        color: $blueviolet;
+        font-size: 120px;
+        margin-bottom: 60px;
+
+        span {
+            font-size: 22px;
+            position: relative;
+            bottom: 30px;
+        }
+    }
+
+    &__dist {
+        max-width: 270px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+}

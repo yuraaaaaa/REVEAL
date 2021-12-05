@@ -1,0 +1,43 @@
+@import '../color/var.scss';
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 96px;
+
+    &__user {
+        width: 36px;
+        height: 41px;
+    }
+}
+
+.logo {
+    width: 130px;
+    height: 22px;
+}
+
+.nav {
+    height: 64px;
+    display: flex;
+    padding: 0 33px;
+    border: 1px solid $border;
+    border-radius: 33px;
+
+    &__link {
+        display: inline-block;
+        vertical-align: middle;
+        text-align: center;
+        line-height: 64px;
+        margin: 0 35px;
+        font-size: 16px;
+        @extend %transition;
+        border-radius: 33px;
+    }
+
+    &__link:hover {
+        color: $text_light;
+        background-color: $text;
+        background-size: 142px 50px;
+    }
+}

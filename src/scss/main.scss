@@ -1,0 +1,15 @@
+@import '../scss/color/var.scss';
+@import '../scss/header/header.scss';
+@import '../scss/first_section/first_section.scss';
+
+body {
+    overflow-x: hidden;
+    background-color: $bg;
+    width: 100vw;
+    font-family: 'Roboto', 'Arial', 'Helvetica Neue', sans-serif;
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+}
